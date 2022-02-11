@@ -1,0 +1,193 @@
+app:
+  clientTitle: "VNPT - GoMeet"
+  appName: "VNPT - GoMeet"
+  appVersion: "v1.0.001"
+  bbbServerVersion: 2.2
+  copyright: "VNPT VinaPhone © 2022"
+  domain: https://meeting.vnptit.vn
+  secretAPILogout: maZYe3D0Cvcj9Mkf3prc50ASZIcTWsWm
+  logoutAddress: '/bigbluebutton/api/signOut'
+  helpLink: https://vnpt.com.vn/
+  defaultSettings:
+    application:
+      locale: vi_VN
+      animations: true
+      chatAudioAlerts: false
+      chatPushAlerts: true
+      userJoinAudioAlerts: false
+      userJoinPushAlerts: true
+      webcamModeEnabled: false
+      raiseHandAudioAlerts: true
+      raiseHandPushAlerts: true
+      fallbackLocale: en
+      overrideLocale: vi_VN
+    audio:
+      inputDeviceId: undefined
+      outputDeviceId: undefined
+    dataSaving:
+      viewParticipantsWebcams: true
+      viewScreenshare: true
+    cameraProfiles:
+      - id: low
+        name: low
+        bitrate: 30
+        hidden: false
+        default: true
+        defaultModerator: false
+        constraints:
+          frameRate: 5
+      - id: medium
+        name: medium
+        default: false
+        defaultModerator: true
+        bitrate: 100
+        constraints:
+          frameRate: 10
+  features:
+    allowUserChangeName: true
+    allowSearchUser: true
+    allowSearchMessage: true
+    allowFilterMessage: true
+    modeWebcamForPresenter: false
+    speakerPrioritize: false
+    chatAttachment: true
+    chatEmoji: false
+    muteAllExceptPresenterHome: true
+    pinCamera: true
+    handUp: true
+    requestPresenter: true
+    userRating: true
+    linkRating: https://docs.google.com/forms/d/e/1FAIpQLSfLA-D1IgWnXTl3HRSKrq0kSj08nD0YGUpWnrjSONBn4apgaw/viewform
+    appInfo: true
+    shortcuts: false
+    uiTheme: true
+    poll:
+      enabled: true
+      enableMultiChoices: false
+      default_no_custom: 2
+      minTimeOut: 30
+    contest:
+      enabled: true
+      minTimeOut: 60
+      remainTimeRoom: 120
+    chat:
+      enabled: true
+      startClosed: false
+      min_message_length: 1
+      max_message_length: 5000
+      grouping_messages_window: 10000
+      type_system: SYSTEM_MESSAGE
+      type_public: PUBLIC_ACCESS
+      type_private: PRIVATE_ACCESS
+      system_userid: SYSTEM_MESSAGE
+      system_username: SYSTEM_MESSAGE
+      public_id: public
+      public_group_id: MAIN-PUBLIC-GROUP-CHAT
+      public_userid: public_chat_userid
+      public_username: public_chat_username
+      storage_key: UNREAD_CHATS
+      system_messages_keys:
+        chat_clear: PUBLIC_CHAT_CLEAR
+      typingIndicator:
+        enabled: true
+      fileUpload:
+        uploadEndPoint: /bigbluebutton/file/upload
+        minFileSize: 0
+        maxFileSize: 26214400 # 25 * 1024 * 1024
+        uploadValidMimeTypes:
+        - extension: .pdf
+          mime: application/pdf
+        - extension: .doc
+          mime: application/msword
+        - extension: .docx
+          mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        - extension: .xls
+          mime: application/vnd.ms-excel
+        - extension: .xlsx
+          mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+        - extension: .ppt
+          mime: application/vnd.ms-powerpoint
+        - extension: .pptx
+          mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
+        - extension: .txt
+          mime: text/plain
+        - extension: .rtf
+          mime: application/rtf
+        - extension: .odt
+          mime: application/vnd.oasis.opendocument.text
+        - extension: .ods
+          mime: application/vnd.oasis.opendocument.spreadsheet
+        - extension: .odp
+          mime: application/vnd.oasis.opendocument.presentation
+        - extension: .odg
+          mime: application/vnd.oasis.opendocument.graphics
+        - extension: .odc
+          mime: application/vnd.oasis.opendocument.chart
+        - extension: .odi
+          mime: application/vnd.oasis.opendocument.image
+        - extension: .jpg
+          mime: image/jpeg
+        - extension: .jpeg
+          mime: image/jpeg
+        - extension: .png
+          mime: image/png
+    notification:
+      windowNotification: true
+      warning: true
+      error: true
+    presentation:
+      defaultPresentationFile: default.pdf
+      panZoomThrottle: 32
+      restoreOnUpdate: false
+      uploadEndpoint: "/bigbluebutton/presentation/upload"
+      uploadSizeMin: 0
+      uploadSizeMax: 31457280 # 30 * 1024 * 1024
+      uploadValidMimeTypes:
+        - extension: .pdf
+          mime: application/pdf
+        - extension: .doc
+          mime: application/msword
+        - extension: .docx
+          mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        - extension: .xls
+          mime: application/vnd.ms-excel
+        - extension: .xlsx
+          mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+        - extension: .ppt
+          mime: application/vnd.ms-powerpoint
+        - extension: .pptx
+          mime: application/vnd.openxmlformats-officedocument.presentationml.presentation
+        - extension: .txt
+          mime: text/plain
+        - extension: .rtf
+          mime: application/rtf
+        - extension: .odt
+          mime: application/vnd.oasis.opendocument.text
+        - extension: .ods
+          mime: application/vnd.oasis.opendocument.spreadsheet
+        - extension: .odp
+          mime: application/vnd.oasis.opendocument.presentation
+        - extension: .odg
+          mime: application/vnd.oasis.opendocument.graphics
+        - extension: .odc
+          mime: application/vnd.oasis.opendocument.chart
+        - extension: .odi
+          mime: application/vnd.oasis.opendocument.image
+        - extension: .jpg
+          mime: image/jpeg
+        - extension: .jpeg
+          mime: image/jpeg
+        - extension: .png
+          mime: image/png
+    note:
+      enabled: true
+      url: https://meeting.vnptit.vn/pad
+      config:
+        showLineNumbers: false
+        showChat: false
+        noColors: true
+        showControls: true
+        rtl: false
+    layout:
+      autoSwapLayout: true
+      hidePresentation: false

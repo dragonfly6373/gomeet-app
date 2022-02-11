@@ -1,0 +1,18 @@
+@import "/imports/ui/stylesheets/mixins/_scrollable";
+
+.container,
+.contentWrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    @include scrollbox-vertical(var(--user-list-bg));
+    height: 100%;
+    overflow: auto;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-flow: column;
+}

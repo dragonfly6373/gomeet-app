@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    flex-flow: column;
+    background-image: url('/public/images/louvre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 14em;
+}
+
+.container {
+    margin-bottom: 1em;
+    padding: 1em;
+}

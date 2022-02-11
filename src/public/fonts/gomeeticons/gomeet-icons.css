@@ -1,0 +1,459 @@
+@font-face {
+    font-family: 'gomeet-icons';
+    src: url('/public/fonts/gomeeticons/gomeet-icons.eot?#iefix') format('embedded-opentype'), url('/public/fonts/gomeeticons/gomeet-icons.woff2') format('woff2'), url('/public/fonts/gomeeticons/gomeet-icons.woff') format('woff'), url('/public/fonts/gomeeticons/gomeet-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-gomeet-"],
+[class*=" icon-gomeet-"] {
+    font-family: 'gomeet-icons' !important;
+    speak: none;
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    width: 1em;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gomeet-about:before {
+    content: "\e900";
+}
+
+.icon-gomeet-account:before {
+    content: "\e901";
+}
+
+.icon-gomeet-account-cog:before {
+    content: "\e902";
+}
+
+.icon-gomeet-account-group:before {
+    content: "\e903";
+}
+
+.icon-gomeet-add:before {
+    content: "\e904";
+}
+
+.icon-gomeet-application:before {
+    content: "\e905";
+}
+
+.icon-gomeet-arrow-left:before {
+    content: "\e906";
+}
+
+.icon-gomeet-arrow-right:before {
+    content: "\e907";
+}
+
+.icon-gomeet-chat:before {
+    content: "\e908";
+}
+
+.icon-gomeet-check:before {
+    content: "\e909";
+}
+
+.icon-gomeet-checkmark:before {
+    content: "\e90a";
+}
+
+.icon-gomeet-chevron-left:before {
+    content: "\e90b";
+}
+
+.icon-gomeet-chevron-right:before {
+    content: "\e90c";
+}
+
+.icon-gomeet-circle:before {
+    content: "\e90d";
+}
+
+.icon-gomeet-circle_close:before {
+    content: "\e90e";
+}
+
+.icon-gomeet-circle_tool:before {
+    content: "\e90f";
+}
+
+.icon-gomeet-clear_status:before {
+    content: "\e910";
+}
+
+.icon-gomeet-close:before {
+    content: "\e911";
+}
+
+.icon-gomeet-closed_caption:before {
+    content: "\e912";
+}
+
+.icon-gomeet-copy:before {
+    content: "\e913";
+}
+
+.icon-gomeet-delete:before {
+    content: "\e914";
+}
+
+.icon-gomeet-desktop:before {
+    content: "\e915";
+}
+
+.icon-gomeet-desktop_off:before {
+    content: "\e916";
+}
+
+.icon-gomeet-download:before {
+    content: "\e917";
+}
+
+.icon-gomeet-download_off:before {
+    content: "\e918";
+}
+
+.icon-gomeet-exit_fullscreen:before {
+    content: "\e919";
+}
+
+.icon-gomeet-face-confused:before {
+    content: "\e91a";
+}
+
+.icon-gomeet-face-happy:before {
+    content: "\e91b";
+}
+
+.icon-gomeet-face-sad:before {
+    content: "\e91c";
+}
+
+.icon-gomeet-face-undecided:before {
+    content: "\e91d";
+}
+
+.icon-gomeet-file:before {
+    content: "\e91e";
+}
+
+.icon-gomeet-file-excel:before {
+    content: "\e91f";
+}
+
+.icon-gomeet-file-pdf:before {
+    content: "\e920";
+}
+
+.icon-gomeet-file-powerpoint:before {
+    content: "\e921";
+}
+
+.icon-gomeet-file-text:before {
+    content: "\e922";
+}
+
+.icon-gomeet-file-word:before {
+    content: "\e923";
+}
+
+.icon-gomeet-filter:before {
+    content: "\e924";
+}
+
+.icon-gomeet-fit_to_screen:before {
+    content: "\e925";
+}
+
+.icon-gomeet-fit_to_width:before {
+    content: "\e926";
+}
+
+.icon-gomeet-forum:before {
+    content: "\e927";
+}
+
+.icon-gomeet-forum-outline:before {
+    content: "\e928";
+}
+
+.icon-gomeet-fullscreen:before {
+    content: "\e929";
+}
+
+.icon-gomeet-group_chat:before {
+    content: "\e92a";
+}
+
+.icon-gomeet-hand:before {
+    content: "\e92b";
+}
+
+.icon-gomeet-help:before {
+    content: "\e92c";
+}
+
+.icon-gomeet-line_tool:before {
+    content: "\e92d";
+}
+
+.icon-gomeet-listen:before {
+    content: "\e92e";
+}
+
+.icon-gomeet-listen_filled:before {
+    content: "\e92f";
+}
+
+.icon-gomeet-lock:before {
+    content: "\e930";
+}
+
+.icon-gomeet-logout:before {
+    content: "\e931";
+}
+
+.icon-gomeet-magnify:before {
+    content: "\e932";
+}
+
+.icon-gomeet-minus:before {
+    content: "\e933";
+}
+
+.icon-gomeet-more:before {
+    content: "\e934";
+}
+
+.icon-gomeet-multi_whiteboard:before {
+    content: "\e935";
+}
+
+.icon-gomeet-mute:before {
+    content: "\e936";
+}
+
+.icon-gomeet-mute_filled:before {
+    content: "\e937";
+}
+
+.icon-gomeet-network:before {
+    content: "\e938";
+}
+
+.icon-gomeet-new_file:before {
+    content: "\e939";
+}
+
+.icon-gomeet-note:before {
+    content: "\e93a";
+}
+
+.icon-gomeet-pen_tool:before {
+    content: "\e93b";
+}
+
+.icon-gomeet-phone:before {
+    content: "\e93c";
+}
+
+.icon-gomeet-phone-hangup:before {
+    content: "\e93d";
+}
+
+.icon-gomeet-phone-off:before {
+    content: "\e93e";
+}
+
+.icon-gomeet-plus:before {
+    content: "\e93f";
+}
+
+.icon-gomeet-pointer:before {
+    content: "\e940";
+}
+
+.icon-gomeet-polling:before {
+    content: "\e941";
+}
+
+.icon-gomeet-popout_window:before {
+    content: "\e942";
+}
+
+.icon-gomeet-presentation:before {
+    content: "\e943";
+}
+
+.icon-gomeet-promote:before {
+    content: "\e944";
+}
+
+.icon-gomeet-record:before {
+    content: "\e945";
+}
+
+.icon-gomeet-rectangle_tool:before {
+    content: "\e946";
+}
+
+.icon-gomeet-redo:before {
+    content: "\e947";
+}
+
+.icon-gomeet-refresh:before {
+    content: "\e948";
+}
+
+.icon-gomeet-room:before {
+    content: "\e949";
+}
+
+.icon-gomeet-rooms:before {
+    content: "\e94a";
+}
+
+.icon-gomeet-send:before {
+    content: "\e94b";
+}
+
+.icon-gomeet-settings:before {
+    content: "\e94c";
+}
+
+.icon-gomeet-shortucts:before {
+    content: "\e94d";
+}
+
+.icon-gomeet-speak_louder:before {
+    content: "\e94e";
+}
+
+.icon-gomeet-star:before {
+    content: "\e94f";
+}
+
+.icon-gomeet-star_filled:before {
+    content: "\e950";
+}
+
+.icon-gomeet-substract:before {
+    content: "\e951";
+}
+
+.icon-gomeet-template_download:before {
+    content: "\e952";
+}
+
+.icon-gomeet-template_upload:before {
+    content: "\e953";
+}
+
+.icon-gomeet-text_tool:before {
+    content: "\e954";
+}
+
+.icon-gomeet-thumbs_down:before {
+    content: "\e955";
+}
+
+.icon-gomeet-thumbs_down_filled:before {
+    content: "\e956";
+}
+
+.icon-gomeet-thumbs_up:before {
+    content: "\e957";
+}
+
+.icon-gomeet-thumbs_up_filled:before {
+    content: "\e958";
+}
+
+.icon-gomeet-time:before {
+    content: "\e959";
+}
+
+.icon-gomeet-transfer_audio:before {
+    content: "\e95a";
+}
+
+.icon-gomeet-triangle_tool:before {
+    content: "\e95b";
+}
+
+.icon-gomeet-undo:before {
+    content: "\e95c";
+}
+
+.icon-gomeet-unlock:before {
+    content: "\e95d";
+}
+
+.icon-gomeet-unmute:before {
+    content: "\e95e";
+}
+
+.icon-gomeet-unmute_filled:before {
+    content: "\e95f";
+}
+
+.icon-gomeet-up_arrow:before {
+    content: "\e960";
+}
+
+.icon-gomeet-upload:before {
+    content: "\e961";
+}
+
+.icon-gomeet-user:before {
+    content: "\e962";
+}
+
+.icon-gomeet-video:before {
+    content: "\e963";
+}
+
+.icon-gomeet-video-off:before {
+    content: "\e964";
+}
+
+.icon-gomeet-warning:before {
+    content: "\e965";
+}
+
+.icon-gomeet-whiteboard:before {
+    content: "\e966";
+}
+
+.icon-gomeet-morevertical:before {
+    content: "\e967";
+}
+
+.icon-gomeet-mic-setting::before {
+    content: "\e968"
+}
+
+.icon-gomeet-mic-off::before {
+    content: "\e969"
+}
+
+.icon-gomeet-arrow-down::before {
+    content: "\e96a"
+}
+
+.icon-gomeet-arrow-up::before {
+    content: "\e96b"
+}
+
+.icon-gomeet-display::before {
+    content: "\e96c"
+}

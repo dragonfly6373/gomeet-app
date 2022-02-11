@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-flow: row;
+}
+
+.panel {
+    background: #ACC;
+    min-width: 12em;
+}
+
+.content {
+    flex: 1 auto;
+    background: white;
+}

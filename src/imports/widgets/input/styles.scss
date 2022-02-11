@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    &.column {
+        flex-flow: column;
+    }
+}
+.inputGroup {
+    border: 1px solid #888;
+    border-radius: 0.2em;
+    background: #FFF;
+    overflow: hidden;
+    display: flex;
+    &.reverse {
+        flex-flow: row-reverse;
+    }
+    & > i {
+        padding: 0.2em 0.3em;
+        background: #CCC;
+    }
+    & > input {
+        outline: none;
+        border: 0;
+        background: transparent;
+        padding: 0em 0.2em;
+        flex: 1;
+    }
+}
+
